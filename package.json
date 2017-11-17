@@ -1,0 +1,27 @@
+{
+  "name": "gdcr-js",
+  "version": "1.0.0",
+  "description": "Global day of code retreat js base",
+  "main": "index.js",
+  "author": "Henrik Lehtonen (Arado Oy)",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.11.0",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "flow-bin": "^0.59.0",
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "lint": "eslint src",
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
