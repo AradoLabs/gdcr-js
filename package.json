@@ -5,7 +5,9 @@
   "main": "index.js",
   "author": "Henrik Lehtonen (Arado Oy)",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "babel-eslint": "^8.0.2"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.6.1",
